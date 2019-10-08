@@ -1,0 +1,36 @@
+{
+  "name": "offre",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "horaire_total": {
+      "type": "number",
+      "required": true
+    },
+    "unite_horaire": {
+      "type": "string",
+      "required": true,
+      "default": "Jour"
+    },
+    "prix_unitaire": {
+      "type": "number",
+      "required": true
+    },
+    "remise": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
