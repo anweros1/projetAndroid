@@ -42,5 +42,13 @@
   "offre": {
     "dataSource": "projet",
     "public": true
+  },
+  "inscription": {
+    "dataSource": "projet",
+    "public": true
+  },
+  "payment": {
+    "dataSource": "projet",
+    "public": true
   }
 }

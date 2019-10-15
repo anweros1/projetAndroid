@@ -1,0 +1,34 @@
+{
+  "name": "inscription",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "proprietere": {
+      "type": "number",
+      "required": true
+    },
+    "client": {
+      "type": "number",
+      "required": true
+    },
+    "offre": {
+      "type": "number",
+      "required": true
+    },
+    "prix_achat": {
+      "type": "number",
+      "required": true
+    },
+    "date_achat": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
